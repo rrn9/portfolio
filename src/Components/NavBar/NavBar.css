@@ -1,0 +1,29 @@
+.nav-bar{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    
+}
+
+.name-logo {
+    max-width: 70px;
+    max-height: 100px;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    /* background-color: black; */
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    min-width: 500px;
+    /* background-color: bisque; */
+}
